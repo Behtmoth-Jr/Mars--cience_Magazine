@@ -1,3 +1,14 @@
 @import "style.scss";
 
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-text {
+    margin-right: 94px;
+}
 
+.main-item {
+    margin: 145px 0;
+}

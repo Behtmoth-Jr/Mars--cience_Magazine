@@ -19,6 +19,15 @@ p, h1 {
   font-family: "gilroy";
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+}
+
 .nav {
   background-color: #004607;
   font-family: gilroy;
