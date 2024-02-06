@@ -1,0 +1,24 @@
+@import "style.scss";
+
+.nav {
+    background-color: $color_gr-black;
+    font-family: gilroy;
+    display: flex;
+    width: 100%;
+    color: white;
+       .nav-item {
+           width: 12.5%;
+           text-align: center;
+           align-items: center;
+           display: flex;
+           justify-content: center;
+           border-right: 2px solid #AEB8AA;
+           padding: 13px 0;
+       }
+       .nav-item:hover {
+        background-color: $color_gr-light;
+       }
+       .nav-item:last-of-type {
+        border: none;
+       }
+}
