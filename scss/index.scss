@@ -31,5 +31,19 @@
     margin: 0 20px;
 }
 .swiper-button-prev, .swiper-button-next {
-    color: $btn !important;
+    color: $gr_light !important;
+}
+.main-item_about {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+        p, h1{
+            margin-bottom: 18px;
+        }
+        li {
+            display: flex ;
+            list-style: none;
+            justify-content: flex-start;
+        }
 }

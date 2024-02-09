@@ -13,11 +13,12 @@
            justify-content: center;
            border-right: 2px solid #AEB8AA;
            padding: 13px 0;
-       }
-       .nav-item:hover {
-        background-color: $color_gr-light;
-       }
-       .nav-item:last-of-type {
-        border: none;
-       }
+
+           &:hover {
+            background-color: $color_gr;
+           }
+           &:last-of-type {
+            border: none;
+           }
+        }
 }
