@@ -24,8 +24,16 @@ body {
     background-color: $color_back;
 }
 
-p, h1 {
+p, h1, li {
 	font-family:'gilroy';
+}
+
+p, li{
+    font-size: 1.125em;
+}
+
+h1 {
+    color: $color_gr-light;
 }
 
 .wrapper {

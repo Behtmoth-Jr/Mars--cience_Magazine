@@ -15,8 +15,16 @@ body {
   background-color: #F7FFF1;
 }
 
-p, h1 {
+p, h1, li {
   font-family: "gilroy";
+}
+
+p, li {
+  font-size: 1.125em;
+}
+
+h1 {
+  color: #00720B;
 }
 
 .wrapper {
@@ -30,7 +38,6 @@ p, h1 {
 
 .nav {
   background-color: #004607;
-  font-family: gilroy;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
