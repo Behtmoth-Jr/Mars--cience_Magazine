@@ -22,10 +22,7 @@ $gr_light: #60CA2E;
 
 body {
     background-color: $color_back;
-}
-
-p, h1, li {
-	font-family:'gilroy';
+    font-family:'gilroy';
 }
 
 p, li{
@@ -33,7 +30,7 @@ p, li{
 }
 
 h1 {
-    color: $color_gr-light;
+    color: $color_gr;
 }
 
 .wrapper {

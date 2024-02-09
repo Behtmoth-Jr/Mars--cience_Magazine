@@ -13,9 +13,6 @@
 
 body {
   background-color: #F7FFF1;
-}
-
-p, h1, li {
   font-family: "gilroy";
 }
 
@@ -95,6 +92,15 @@ h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+}
+.main-item_about::after {
+  display: block;
+  content: "";
+  width: 50%;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #60CA2E;
+  margin-top: 34px;
 }
 .main-item_about p, .main-item_about h1 {
   margin-bottom: 18px;
