@@ -15,9 +15,6 @@
         }
 }
 
-.main-item {
-    margin: 145px 0;
-}
 .scroll {
     position: relative;
     height: 54px;
@@ -57,7 +54,6 @@
         }
 }
 .main-item_editors {
-    background-color: $gr_block;
         .squares {
             position: relative;
             width: 100%;
@@ -77,24 +73,5 @@
                     right: 10%;
                 }
         }
-        .block_geen {
-            align-items: center;
-            flex-direction: column;
-                h1, p, h2, li {
-                    color: white;
-                }
-                .requirements {
-                    flex-direction: column;
-                    align-items: center;
-                }
-                .block_geen-item {
-                    margin: 26px 0;
-                    align-items: center;
-                    justify-content: center;
-                        .block_green-item--text {
-                            width: 70%;
-                            margin: 0 20px;
-                        }
-                }
-        }
+        
 }

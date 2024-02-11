@@ -1,0 +1,57 @@
+@import "style.scss";
+
+
+.tarif{
+    h1 {
+        margin-bottom: 60px;
+        justify-content: center;
+    }
+    .squares {
+        position: relative;
+        width: 100%;
+        height: 100%;
+            .square{
+                position: absolute;
+            }
+            .square_dark {
+                bottom: 40px;
+                left: -10%;
+            }
+            .square_light {
+                top: 212px;
+                z-index: -1;
+                right: -10%;
+            } 
+    }
+
+    .plans_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 16px;
+        flex: 30%;
+        margin: 0 17px;
+        box-shadow: 4px 8px 20px -15px;
+        padding: 70px 14px;
+        text-align: center;
+            h2{
+                margin-bottom: 20px;
+                color: $color_gr;
+                &::after {
+                    display: block;
+                    content: '';
+                    width: 100%;
+                    height: 4px;
+                    border-radius: 10px;
+                    background-color: $gr_light;
+                }
+            }
+    }
+}
+
+.green{
+    text-align: center;
+    padding: 50px;
+}

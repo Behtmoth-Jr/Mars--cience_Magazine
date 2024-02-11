@@ -34,9 +34,36 @@ h1 {
     color: $color_gr;
 }
 
+.main-item {
+    margin: 145px 0;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
     max-width: 1110px;
     margin: auto;
+}
+.green{
+    background-color: $gr_block;
+}
+.block_green {
+    align-items: center;
+    flex-direction: column;
+        h1, p, h2, li {
+            color: white;
+        }
+        .requirements {
+            flex-direction: column;
+            align-items: center;
+        }
+        .block_green-item {
+            margin: 26px 0;
+            align-items: center;
+            justify-content: center;
+                .block_green-item--text {
+                    width: 70%;
+                    margin: 0 20px;
+                }
+        }
 }

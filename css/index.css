@@ -24,6 +24,10 @@ h1 {
   color: #00720B;
 }
 
+.main-item {
+  margin: 145px 0;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,6 +35,45 @@ h1 {
   width: 100%;
   max-width: 1110px;
   margin: auto;
+}
+
+.green {
+  background-color: #48A400;
+}
+
+.block_green {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.block_green h1, .block_green p, .block_green h2, .block_green li {
+  color: white;
+}
+.block_green .requirements {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.block_green .block_green-item {
+  margin: 26px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.block_green .block_green-item .block_green-item--text {
+  width: 70%;
+  margin: 0 20px;
 }
 
 .slide {
@@ -52,10 +95,6 @@ h1 {
 }
 .slide-text h1 {
   margin-bottom: 26px;
-}
-
-.main-item {
-  margin: 145px 0;
 }
 
 .scroll {
@@ -115,9 +154,6 @@ h1 {
           justify-content: flex-start;
 }
 
-.main-item_editors {
-  background-color: #48A400;
-}
 .main-item_editors .squares {
   position: relative;
   width: 100%;
@@ -136,38 +172,4 @@ h1 {
 .main-item_editors .squares .squares_dark {
   bottom: -32px;
   right: 10%;
-}
-.main-item_editors .block_geen {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.main-item_editors .block_geen h1, .main-item_editors .block_geen p, .main-item_editors .block_geen h2, .main-item_editors .block_geen li {
-  color: white;
-}
-.main-item_editors .block_geen .requirements {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.main-item_editors .block_geen .block_geen-item {
-  margin: 26px 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.main-item_editors .block_geen .block_geen-item .block_green-item--text {
-  width: 70%;
-  margin: 0 20px;
 }

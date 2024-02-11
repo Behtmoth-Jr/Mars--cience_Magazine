@@ -76,65 +76,30 @@ h1 {
   margin: 0 20px;
 }
 
-nav {
-  background-color: #004607;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.tarif h1 {
+  margin-bottom: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-nav a {
-  color: white;
-  text-decoration: none;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-  border-left: 2px solid #AEB8AA;
-  padding: 10px 38px;
+.tarif .squares {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-nav a:first-child {
-  border: none;
+.tarif .squares .square {
+  position: absolute;
 }
-nav a:hover {
-  color: #60CA2E;
+.tarif .squares .square_dark {
+  bottom: 40px;
+  left: -10%;
 }
-
-footer {
-  background-color: #004607;
+.tarif .squares .square_light {
+  top: 212px;
+  z-index: -1;
+  right: -10%;
 }
-footer p, footer a {
-  color: white;
-}
-footer nav {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-footer nav a {
-  font-size: 1.25em;
-}
-footer nav a:hover {
-  color: white;
-  background-color: #60CA2E;
-}
-footer .footer_inf {
-  font-size: 0.8em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding: 0 10px 10px 10px;
-}
-footer .footer_inf .contact {
+.tarif .plans_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,14 +110,34 @@ footer .footer_inf .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  margin: 0 17px;
+  -webkit-box-shadow: 4px 8px 20px -15px;
+          box-shadow: 4px 8px 20px -15px;
+  padding: 70px 14px;
   text-align: center;
 }
-footer .footer_inf .contact a:hover {
-  color: #60CA2E;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+.tarif .plans_item h2 {
+  margin-bottom: 20px;
+  color: #00720B;
 }
-footer .footer_inf .contact img {
-  width: 51px;
-  margin-bottom: 6px;
+.tarif .plans_item h2::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #60CA2E;
+}
+
+.green {
+  text-align: center;
+  padding: 50px;
 }
