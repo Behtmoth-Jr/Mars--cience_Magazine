@@ -114,3 +114,60 @@ h1 {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
+.main-item_editors {
+  background-color: #48A400;
+}
+.main-item_editors .squares {
+  position: relative;
+  width: 100%;
+}
+.main-item_editors .squares img {
+  position: absolute;
+}
+.main-item_editors .squares .squares_white {
+  bottom: 36px;
+  left: 13%;
+}
+.main-item_editors .squares .squares_light {
+  bottom: 310px;
+  right: 15%;
+}
+.main-item_editors .squares .squares_dark {
+  bottom: -32px;
+  right: 10%;
+}
+.main-item_editors .block_geen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main-item_editors .block_geen h1, .main-item_editors .block_geen p, .main-item_editors .block_geen h2, .main-item_editors .block_geen li {
+  color: white;
+}
+.main-item_editors .block_geen .requirements {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-item_editors .block_geen .block_geen-item {
+  margin: 26px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-item_editors .block_geen .block_geen-item .block_green-item--text {
+  width: 70%;
+  margin: 0 20px;
+}
