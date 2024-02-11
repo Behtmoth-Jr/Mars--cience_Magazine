@@ -91,6 +91,7 @@ nav {
 }
 nav a {
   color: white;
+  font-size: 1.125em;
   text-decoration: none;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
