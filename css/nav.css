@@ -87,6 +87,7 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 nav a {
   color: white;
@@ -94,7 +95,8 @@ nav a {
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
   border-left: 2px solid #AEB8AA;
-  padding: 10px 38px;
+  padding: 10px 0;
+  width: 10%;
 }
 nav a:first-child {
   border: none;
