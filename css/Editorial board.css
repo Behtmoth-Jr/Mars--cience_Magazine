@@ -76,86 +76,30 @@ h1 {
   margin: 0 20px;
 }
 
-nav {
-  background-color: #004607;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-}
-nav a {
-  color: white;
-  font-size: 1.125em;
-  text-decoration: none;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-  border-left: 2px solid #AEB8AA;
-  padding: 10px 0;
-  width: 11%;
-}
-nav a:first-child {
-  border: none;
-}
-nav a:hover {
-  color: #60CA2E;
+.main-item {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 0px 12px -7px;
+          box-shadow: 1px 0px 12px -7px;
 }
 
-footer {
-  background-color: #004607;
-}
-footer p, footer a {
-  color: white;
-}
-footer nav {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-footer nav a {
-  font-size: 1.25em;
-}
-footer nav a:hover {
-  color: white;
-  background-color: #60CA2E;
-}
-footer .footer_inf {
-  font-size: 0.8em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding: 0 10px 10px 10px;
-}
-footer .footer_inf .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.board h1 {
   text-align: center;
+  margin: 30px;
+  margin-top: 50px;
 }
-footer .footer_inf .contact a:hover {
-  color: #60CA2E;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+.board .editor {
+  margin: 30px;
 }
-footer .footer_inf .contact img {
-  width: 51px;
-  margin-bottom: 6px;
+.board .editor:last-of-type {
+  margin-bottom: 50px;
+}
+.board .editor::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #60CA2E;
+  margin-top: 10px;
 }
